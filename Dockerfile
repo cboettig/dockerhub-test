@@ -1,3 +1,3 @@
-FROM debian:9
+FROM debian:7
 
 RUN apt-get update && apt-get -y install vim
